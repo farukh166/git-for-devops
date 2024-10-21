@@ -1,4 +1,4 @@
-###🚀 Git Commands Cheat Sheet for DevOps Engineers
+#🚀 Git Commands Cheat Sheet for DevOps Engineers
 
 Welcome to your go-to guide for Git! Whether you're setting up a new repository, collaborating with a team, or deploying code, these commands will keep your workflow smooth and efficient. Here's a breakdown of the most useful Git commands to help you succeed.
 
