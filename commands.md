@@ -1,8 +1,8 @@
-#🚀 Git Commands Cheat Sheet for DevOps Engineers
+# 🚀 Git Commands Cheat Sheet for DevOps Engineers
 
 Welcome to your go-to guide for Git! Whether you're setting up a new repository, collaborating with a team, or deploying code, these commands will keep your workflow smooth and efficient. Here's a breakdown of the most useful Git commands to help you succeed.
 
-##🧑‍💻 Setting Up a Repository
+## 🧑‍💻 Setting Up a Repository
 
 1. Initialize a new Git repository
 
@@ -20,7 +20,7 @@ Clones a repository from a remote location (like GitHub) to your local machine.
 git clone <repository_url>
 ```
 
-##📁 Working with Branches
+## 📁 Working with Branches
 
 3. Create a new branch
 
@@ -46,7 +46,7 @@ Create and switch to a new branch in one step.
 git checkout -b <branch_name>
 ```
 
-##📥 Staging & Committing Changes
+## 📥 Staging & Committing Changes
 
 6. Check the status of your files
 
@@ -72,7 +72,7 @@ Save your staged changes with a descriptive message.
 git commit -m "Your message"
 ```
 
-##🌍 Working with Remotes
+## 🌍 Working with Remotes
 
 9. Add a remote repository
 
@@ -98,7 +98,7 @@ Fetches and integrates changes from a remote branch to your local branch.
 git pull origin <branch_name>
 ```
 
-##✂️ Advanced Git Commands
+## ✂️ Advanced Git Commands
 
 12. Merge two branches
 
@@ -124,7 +124,7 @@ Temporarily saves your uncommitted changes. Use git stash pop to retrieve them l
 git stash
 ```
 
-##🗑️ Undoing Changes
+## 🗑️ Undoing Changes
 
 15. Discard unstaged changes
 
@@ -134,7 +134,7 @@ Reverts changes in a file to the last committed state.
 git checkout -- <file_name>
 ```
 
-17. Reset staged files
+16. Reset staged files
 
 Unstages a file without discarding changes.
 
@@ -142,7 +142,7 @@ Unstages a file without discarding changes.
 git reset <file_name>
 ```
 
-19. Reset to a previous commit
+17. Reset to a previous commit
 
 Reverts the entire repository to a specific commit, discarding changes made since.
 
@@ -150,7 +150,7 @@ Reverts the entire repository to a specific commit, discarding changes made sinc
 git reset --hard <commit_hash>
 ```
 
-##🧹 Cleaning Up
+## 🧹 Cleaning Up
 
 18. Remove untracked files
 
@@ -160,7 +160,7 @@ Removes untracked files from your working directory.
 git clean -f
 ```
 
-20. Delete a branch (locally)
+19. Delete a branch (locally)
 
 Deletes a local branch that has already been merged.
 
@@ -168,7 +168,7 @@ Deletes a local branch that has already been merged.
 git branch -d <branch_name>
 ```
 
-##🔍 Git Logs and Tracking
+## 🔍 Git Logs and Tracking
 
 20. View commit history
 
@@ -178,7 +178,7 @@ Shows the commit history with hash, message, and author.
 git log
 ```
 
-22. View changes between commits
+21. View changes between commits
 
 Compares changes between two specific commits.
 
